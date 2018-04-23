@@ -30,11 +30,11 @@
 
 </div>
 
-<div>
+
 
 ## 目录[¶](http://www.worldhello.net/gotgithub/#id6 "永久链接至标题")
 
-<div>
+
 
 *   [1\. 探索GitHub](http://www.worldhello.net/gotgithub/01-explore-github/index.html)
     *   [1.1\. 什么是GitHub](http://www.worldhello.net/gotgithub/01-explore-github/010-what-is-github.html)
