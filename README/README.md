@@ -37,6 +37,7 @@ reids ~
 *   [3\. 项目托管](http://www.worldhello.net/gotgithub/03-project-hosting/index.html)
     *   [3.1\. 创建新项目](http://www.worldhello.net/gotgithub/03-project-hosting/010-new-project.html)
         *   [3.1.1\. 新版本库即是新项目](http://www.worldhello.net/gotgithub/03-project-hosting/010-new-project.html#new-repo)
+               
         *   [3.1.2\. 版本库初始化](http://www.worldhello.net/gotgithub/03-project-hosting/010-new-project.html#init-by-clone)
         *   [3.1.3\. 从已有版本库创建](http://www.worldhello.net/gotgithub/03-project-hosting/010-new-project.html#init-by-push)
     *   [3.2\. 操作版本库](http://www.worldhello.net/gotgithub/03-project-hosting/020-repo-operation.html)

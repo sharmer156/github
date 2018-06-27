@@ -23,10 +23,9 @@
 * * *
 
 <colgroup><col><col></colgroup>
-| [[1]](http://www.worldhello.net/gotgithub/#id2) | [http://www.worldhello.net/gotgit/](http://www.worldhello.net/gotgit/) |
+| [[1]]) | [PDF转MD](http://pdf2md.morethan.io/) |
 
 <colgroup><col><col></colgroup>
-| [[2]](http://www.worldhello.net/gotgithub/#id3) | [https://github.com/gotgit/gotgithub](https://github.com/gotgit/gotgithub) |
 
 </div>
 
