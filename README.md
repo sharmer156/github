@@ -4,7 +4,25 @@
 | Author: | Jiang Xin |
 | Version: | v0.9.1-13-g5075479 |
 | Copyright: | [Creative Commons BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/) |
+## git命令工具及图像工具
+公司项目组用的是Gitlab，组内成员分配有有固定的git个人账户，不同成员有不同的模块编辑权限，使用前需要配置好本地的Git。对一直使用svn的小菜菜来说，这个还是需要一点步骤配置下才可以使用的。配置githost的流程：
 
+将项目组指定的host地址加入到本地的host文件，然后根据这个地址访问项目地址，输入本人用户名和密码可以进入Dashboard，里面有自己权限下的各个目录，要clone到本地需要还需要继续下面的操作。
+###本地安git，配置环境变量，将bin加入至path。Git的下载地址：https://git-scm.com/download/win
+### 如果不习惯命令行想利用图像化界面，可以安装tortoisegit。下载地址：https://tortoisegit.org/download/
+上面已经安装好git，打开git shell，一般桌面上会有这个快捷方式，或者右键有git bash。本地用ssh命令生成密钥（下面有步骤），目标文件夹为C:\Users\Administrator\.ssh，将id_rsa.pub里的内容复制出来粘贴到我们项目SSH Keys的设置中
+并将项目组的config文件copy至C:\Users\Administrator\.ssh，这样本地就可以用git clone获取远程仓库的项目了。
+配置好上面的那些，可以在本地建立一个文件夹存放将要clone的项目，clone完成后，在该文件夹下右键看TurtoiseGit的话应该自动关联了，也可以使用GUI进行分支切换了。
+以github为例：git在windows上配置ssh公钥 
+1. 安装git，从程序目录打开 "Git Bash" 
+2. 键入命令：ssh-keygen -t rsa -C 1234567@gmail.com" 
+  "1234567@gmail.com"是github账号
+3. 提醒你输入key的名称，输入如id_rsa
+4. 在C:\Documents and Settings\Administrator\下产生两个文件：id_rsa和id_rsa.pub
+5. 把4中生成的密钥文件复制到C:\Documents and Settings\Administrator\.ssh\ 目 录下。
+6. 用记事本打开id_rsa.pub文件，复制内容，在github.com的网站上到ssh密钥管理页面，添加新公钥，随便取个名字，内容粘贴刚 才复制的内容。
+需要注意步骤2中产生的密钥文件在当前用户的根目录，必须把这两个文件放到当前用户目录的“.ssh”目录下才能生效。在windows中只能在命令行下输入创建"."开头的文件夹。命令为 mkdir .ssh
+ 
 <div>
 
 ## 前言[¶](http://www.worldhello.net/gotgithub/#id1 "永久链接至标题")
